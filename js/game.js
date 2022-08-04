@@ -70,8 +70,10 @@ function initialize() {
     for (var i = 0; i < 6; i++) {
         board[i] = [0, 0, 0, 0, 0, 0, 0];
     }
+    //xList = [189, 224, 258, 293, 327, 362, 396];
+    //yList = [89, 120, 151, 181, 212, 242];
     xList = [189, 224, 258, 293, 327, 362, 396];
-    yList = [89, 120, 151, 181, 212, 242];
+    yList = [100, 132, 163, 193, 224, 254];
     gameFinished = false;
     isMoving = false;
     targetPos = 0;
